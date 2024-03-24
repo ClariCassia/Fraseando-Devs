@@ -2,43 +2,43 @@ import logoImg from './assets/logo.png'
 import { AllSentences } from './services/sentences'
 import { CategotyArea, Container, PhraseButton, TextSentence } from './style'
 import { useState } from 'react'
+import { CategoryButton } from './components/CategoryButton'
 
 function App() {
-  const [textSentence, setTextSentence] = useState('')
-  const [selectedCategory, setSelectedCategory] = useState(0)
+  const [textSentence, setTextSentence] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState(0);
 
   const handleSwitchCategory = (index: number) => {
-    setSelectedCategory(index)
-  }
+    setSelectedCategory(index);
+  };
 
-  const generateFrase =() => {
-    let randomNumber = Math.floor(Math.random() * AllSentences[selectedCategory].frases.length)
-    setTextSentence(`"${AllSentences[selectedCategory].frases[randomNumber]}"`)
-  }
+  const generateFrase = () => {
+    const category = AllSentences[selectedCategory];
+    const randomNumber = Math.floor(Math.random() * category.frases.length);
+    setTextSentence(`"${category.frases[randomNumber]}"`);
+  };
 
   return (
-    <>
-      <Container>
+    <Container>
+      <img src={logoImg} alt="" />
+      <h2>Categorias</h2>
 
-        <img src={logoImg} alt="" />
-        <h2>Categorias</h2>
+      <CategotyArea>
+        {AllSentences.map((item, index) => (
+          <CategoryButton
+            key={index}
+            category={item.categoria}
+            isSelected={selectedCategory === index}
+            onClick={() => handleSwitchCategory(index)}
+          />
+        ))}
+      </CategotyArea>
 
-        <CategotyArea>
-          {AllSentences.map((item, index) => (
-            <button key={index} style={{ borderWidth: item.categoria === AllSentences[selectedCategory].categoria ? 2 : 0, borderColor: "#1fa4bd", borderStyle: "solid" }} onClick={() => handleSwitchCategory(index)}>{item.categoria}</button>
+      <PhraseButton onClick={generateFrase}>Gerar Frase</PhraseButton>
 
-          ))}
-
-        </CategotyArea>
-
-        <PhraseButton onClick={generateFrase}>Gerar Frase</PhraseButton>
-
-        {textSentence !== '' && <TextSentence>{textSentence}</TextSentence>}
-
-      </Container>
-
-    </>
-  )
+      {textSentence !== '' && <TextSentence>{textSentence}</TextSentence>}
+    </Container>
+  );
 }
 
-export default App
+export default App;
