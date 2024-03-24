@@ -11,6 +11,11 @@ function App() {
     setSelectedCategory(index)
   }
 
+  const generateFrase =() => {
+    let randomNumber = Math.floor(Math.random() * AllSentences[selectedCategory].frases.length)
+    setTextSentence(`"${AllSentences[selectedCategory].frases[randomNumber]}"`)
+  }
+
   return (
     <>
       <Container>
@@ -26,7 +31,7 @@ function App() {
 
         </CategotyArea>
 
-        <PhraseButton>Gerar Frase</PhraseButton>
+        <PhraseButton onClick={generateFrase}>Gerar Frase</PhraseButton>
 
         {textSentence !== '' && <TextSentence>{textSentence}</TextSentence>}
 
