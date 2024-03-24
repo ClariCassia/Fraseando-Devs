@@ -1,33 +1,102 @@
 export const AllSentences = [
-    {
-      id: 1,
-      categoria: "Motivação",
-      frases: [
-        'Siga os bons e aprenda com eles.',
-        'O bom-senso vale mais do que muito conhecimento.',
-        'O riso é a menor distância entre duas pessoas.',
-        'Deixe de lado as preocupações e seja feliz.',
-        'Realize o óbvio, pense no improvável e conquiste o impossível.',
-        'Acredite em milagres, mas não dependa deles.',
-        'A maior barreira para o sucesso é o medo do fracasso.'
-      ]
-    },
-    {
-      id: 2,
-      categoria: "Bom dia",
-      frases: [
-        'Acordar de bem com a vida é o primeiro passo para ter um dia abençoado! Bom dia, família!',
-        'A melhor forma de acordar é pular da cama e se preparar para correr atrás de todos os seus sonhos! Bom dia, mundo!',
-        'Escreva em seu coração: todo dia é o melhor dia do ano.',
-        'Bom dia! Não se esqueça que a sua alma é o reflexo do sol, tão forte e brilhante quanto um girassol.',
-      ]
-    },
-    // {
-    //   id: 3,
-    //   categoria: "Boa noite",
-    //   frases: [
-    //     'Boa noite durma bem',
-    //     'Teste frase boa noite'
-    //   ]
-    // }
-  ]
+ 
+  {
+    id: 1,
+    categoria: "Bom dia",
+    frases: [
+      'Acordar de bem com a vida é o primeiro passo para ter um dia abençoado! Bom dia, família!',
+      'A melhor forma de acordar é pular da cama e se preparar para correr atrás de todos os seus sonhos! Bom dia, mundo!',
+      'Escreva em seu coração: todo dia é o melhor dia do ano.',
+      'Bom dia! Não se esqueça que a sua alma é o reflexo do sol, tão forte e brilhante quanto um girassol.',
+      "Comece onde você está. Use o que você tem. Faça o que puder.",
+      "Faça cada dia valer a pena, acorde com um sorriso e vá em busca de suas metas.",
+      "Que este dia seja leve, doce e cheio de bons momentos.",
+      "Que a sua jornada hoje seja repleta de alegria e gratidão.",
+      "Bom dia! Que a felicidade invada seu coração e sua semana seja abençoada.",
+      "Que o dia comece bem e termine ainda melhor.",
+      "Acredite nos seus sonhos, lute por eles e tenha um excelente dia!",
+      "A vida é um presente, acorde e aproveite cada segundo.",
+      "Que o seu dia seja iluminado por sorrisos e repleto de bênçãos.",
+      "Um novo dia é uma nova oportunidade de ser feliz, aproveite!",
+      "Comece o dia com pensamentos positivos e veja a diferença.",
+      "Bom dia! Que as boas energias te acompanhem durante todo o dia.",
+      "Cada manhã é uma dádiva, não a desperdice.",
+      "Sorria, respire fundo e siga em frente. O dia está apenas começando.",
+      "Que a paz e a harmonia guiem seus passos hoje e sempre.",
+      "Bom dia! Que sua determinação seja maior que qualquer dificuldade.",
+      "A vida é feita de novos começos, aproveite este para fazer o seu melhor.",
+      "Que a luz do sol ilumine seus caminhos e traga calor ao seu coração.",
+      "Bom dia! Que a fé seja sua companheira em cada passo.",
+      "Cada dia é uma nova chance de ser feliz, aproveite essa oportunidade.",
+      "Aproveite cada momento, pois o hoje não voltará.",
+      "Que sua jornada seja abençoada e cheia de momentos inesquecíveis.",
+      "Bom dia! Que a positividade te envolva e te guie ao sucesso.",
+      "A vida é um presente, viva-a com alegria e gratidão.",
+      "Que o dia comece com sorrisos e termine com boas lembranças."
+
+    ]
+  },
+
+  {
+    id: 2,
+    categoria: "Motivação",
+    frases: [
+      'Siga os bons e aprenda com eles.',
+      'O bom-senso vale mais do que muito conhecimento.',
+      'O riso é a menor distância entre duas pessoas.',
+      'Deixe de lado as preocupações e seja feliz.',
+      'Realize o óbvio, pense no improvável e conquiste o impossível.',
+      'Acredite em milagres, mas não dependa deles.',
+      'A maior barreira para o sucesso é o medo do fracasso.',
+      "O sucesso não é o resultado de um jogo de sorte, mas sim de uma mente determinada.",
+      "O fracasso não é uma sentença de morte, mas um sinal para reinventar-se.- Estêvão Ramos",
+      "Você é mais forte do que pensa, mais capaz do que imagina.",
+      "O tempo que leva para atingir seu objetivo não importa; o que importa é nunca desistir.",
+      "A motivação é o que te faz começar. O hábito é o que te mantém indo.",
+      "Não é sobre ter tempo, é sobre fazer tempo.",
+      "Você é a única pessoa que pode limitar seu grande potencial.",
+      "Os obstáculos são apenas detours na estrada da vida.",
+      "Cada passo na direção certa é um passo mais perto do seu objetivo.",
+      "Nada é impossível, a palavra em si diz 'eu sou possível'!",
+      "Se você quer algo que nunca teve, então precisa fazer algo que nunca fez.",
+      "A coragem não é a ausência do medo, mas a capacidade de enfrentá-lo.",
+      "A vida é um eco. Se você não está gostando do que está recebendo, observe o que está emitindo.",
+      "A dor que você sente hoje será a força que você sente amanhã.",
+      "Nada é tão contagioso quanto entusiasmo.",
+      "Grandes coisas nunca vêm de zonas de conforto.",
+      "As oportunidades não acontecem. Você as cria.",
+      "Você não pode ir para trás e mudar o começo, mas pode começar onde está e mudar o final.",
+    ]
+  },
+  {
+    id: 3,
+    categoria: "Trabalho em equipe",
+    frases: [
+      "Juntos somos mais fortes, mais capazes, mais bem-sucedidos,",
+      "No trabalho em equipe, o sucesso é compartilhado e as dificuldades são diminuídas,",
+      "Sozinho podemos ir mais rápido, mas juntos podemos ir mais longe,",
+      "O poder do trabalho em equipe está na união de talentos e na diversidade de ideias,",
+      "Em um time unido, as conquistas são coletivas e as vitórias são mais doces,",
+      "Nenhum de nós é tão bom quanto todos nós juntos,",
+      "A colaboração é a chave para desbloquear grandes conquistas,",
+      "Juntos, podemos transformar desafios em oportunidades,",
+      "Um time forte constrói pontes, supera obstáculos e alcança grandes feitos,",
+      "O sucesso não é um feito individual, mas uma jornada compartilhada,",
+      "Na equipe certa, os sonhos se tornam metas alcançáveis,",
+      "A sinergia de um time bem alinhado é imbatível,",
+      "Unidos pelo mesmo propósito, somos imparáveis,",
+      "No trabalho em equipe, cada um fazendo sua parte, alcançamos o extraordinário,",
+      "O trabalho em equipe multiplica a força e a eficácia de cada membro,",
+      "Onde há unidade, há sempre vitória,",
+      "Juntos, podemos enfrentar qualquer desafio que o mundo nos apresente,",
+      "Um time unido é a essência do sucesso duradouro,",
+      "O sucesso compartilhado é o mais gratificante de todos,",
+      "No coração de um time forte está a confiança mútua,",
+      "Cada pessoa contribuindo com seu talento torna o time mais completo,",
+      "A força de um time está na soma das habilidades individuais,",
+      "No trabalho em equipe, o apoio mútuo é a base do crescimento,",
+      "Juntos, transformamos desafios em oportunidades de crescimento,",
+      "O trabalho em equipe é a harmonia entre indivíduos em busca de um objetivo comum,"
+    ]
+  }
+]
