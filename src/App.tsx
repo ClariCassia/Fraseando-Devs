@@ -2,7 +2,7 @@ import logoImg from './assets/logo.png'
 import { AllSentences } from './services/sentences'
 import { CategotyArea, Container, PhraseButton, TextSentence } from './style'
 import { useState } from 'react'
-import { CategoryButton } from './components/CategoryButton'
+import { CategoryButton } from './components/CategoryButton/CategoryButton'
 
 function App() {
   const [textSentence, setTextSentence] = useState('');
