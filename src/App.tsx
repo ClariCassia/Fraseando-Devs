@@ -1,6 +1,6 @@
-import logoImg from './assets/logo.png'
+import logoImg from './assets/images/logo.png'
 import { AllSentences } from './services/sentences'
-import { CategotyArea, Container, PhraseButton, TextSentence } from './style'
+import { CategoryArea, Container, PhraseButton, TextSentence } from './style'
 import { useState } from 'react'
 import { CategoryButton } from './components/CategoryButton/CategoryButton'
 
@@ -23,7 +23,7 @@ function App() {
       <img src={logoImg} alt="" />
       <h2>Categorias</h2>
 
-      <CategotyArea>
+      <CategoryArea>
         {AllSentences.map((item, index) => (
           <CategoryButton
             key={index}
@@ -32,7 +32,7 @@ function App() {
             onClick={() => handleSwitchCategory(index)}
           />
         ))}
-      </CategotyArea>
+      </CategoryArea>
 
       <PhraseButton onClick={generateFrase}>Gerar Frase</PhraseButton>
 
