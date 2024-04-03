@@ -4,6 +4,9 @@
 
 Em um mundo tão acelerado e cheio de desafios como o da programação, muitas vezes precisamos de uma pausa para recarregar nossas energias, não é mesmo? E é exatamente isso que "Fraseando Devs" oferece.
 
+Para ver o projeto pronto [clique aqui ](https://clari-cassia-projetcs-fraseando-devs.vercel.app/)
+🚀
+
 ## Categorias para Todos os Momentos:
 
 
@@ -28,7 +31,7 @@ Este projeto foi desenvolvido com a poderosa combinação de TypeScript e React,
 ## Layout desktop 🖥️   
 <br>
 
- <img src="src/assets/gif-desktop.gif" alt="gif tela desktop">
+ <img src="src/assets/images/gif-desktop.gif" alt="gif tela desktop">
 <br>
 <br>
 
@@ -36,19 +39,19 @@ Este projeto foi desenvolvido com a poderosa combinação de TypeScript e React,
 
 <br>
 
- <img src="src/assets/gif-mobile.gif" alt="gif tela desmobile">
+ <img src="src/assets/images/gif-mobile.gif" alt="gif tela desmobile">
 <br>
 <br>
+
+
+## O que eu aprendi 🤓
+Ao desenvolver o "Fraseando Devs" meu primeiro projeto em TypeScript pude aprofundar meu entendimento sobre a linguagem, incluindo sua sintaxe, tipos estáticos e benefícios para o desenvolvimento de aplicações web mais robustas e escaláveis. Integrar o TypeScript ao React foi outro marco importante, aprender a criar componentes tipados e a gerenciar o estado da aplicação de uma maneira mais estruturada foi transformador. A clareza que o TypeScript trouxe para a comunicação entre componentes e para a definição de props e estados me ajudou a evitar erros sutis, essa experiência de desenvolver em TypeScript com React não só expandiu minhas habilidades técnicas, mas também reforçou minha paixão pela criação de software e minha motivação para explorar ainda mais as possibilidades que o mundo do desenvolvimento web oferece.
 
 ## Tecnologias utilizadas 🛜
 
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Css](https://img.shields.io/badge/css-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## O que eu aprendi 🤓
-Ao desenvolver o "Fraseando Devs" meu primeiro projeto em TypeScript pude aprofundar meu entendimento sobre a linguagem, incluindo sua sintaxe, tipos estáticos e benefícios para o desenvolvimento de aplicações web mais robustas e escaláveis. Integrar o TypeScript ao React foi outro marco importante, aprender a criar componentes tipados e a gerenciar o estado da aplicação de uma maneira mais estruturada foi transformador. A clareza que o TypeScript trouxe para a comunicação entre componentes e para a definição de props e estados me ajudou a evitar erros sutis, essa experiência de desenvolver em TypeScript com React não só expandiu minhas habilidades técnicas, mas também reforçou minha paixão pela criação de software e minha motivação para explorar ainda mais as possibilidades que o mundo do desenvolvimento web oferece.
 
-Para ver o projeto pronto [clique aqui ](https://clari-cassia-projetcs-colecao-de-repositorios.vercel.app/)
-🚀
 
 Com ❤️ por [Clarissa de Cássia](https://www.linkedin.com/in/clarissa-cassia-dev-front-end/) 😊
