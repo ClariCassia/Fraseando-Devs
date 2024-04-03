@@ -16,7 +16,8 @@ img{
 
 h2{
   color: #fff;
-  margin: 14px 0;
+  margin: 14px 0;  
+  font-weight: 500;
 }
 
 `
@@ -34,7 +35,7 @@ button{
 
 `
 const PhraseButton = styled.button`
-background-color: #1fa4bd;
+background-color: #1FA4DB;
 border-radius: 4px;
 padding: 8px 16px;
 color: #fff;
@@ -50,7 +51,7 @@ text-align: center;
 padding: 14px 22px;
 margin:24px 0 16px 0 ;
 line-height: 150%;
-color: #dd7b22;
+color:#F57F17;
 font-style: italic;
 font-size: 18px;
 font-weight: bold;
