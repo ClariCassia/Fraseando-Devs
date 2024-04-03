@@ -9,9 +9,16 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding-top: 120px;
+@media  (max-width: 480px) {
+  padding: 20px;
+
+}
 
 img{
-  max-width: 350px;  
+  max-width: 350px; 
+  @media (max-width: 480px) {
+    max-width: 280px; 
+  } 
 }
 
 h2{
